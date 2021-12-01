@@ -12,7 +12,7 @@ namespace AoC2021.Days
         static Day1()
         {
             input = Utilities.Instance.GetInput(nameof(Day1)).Select(int.Parse).ToList();
-            
+
         }
 
         public static void SolvePartOne()
@@ -41,16 +41,14 @@ namespace AoC2021.Days
 
             for (int i = 0; i < input.Count; i++)
             {
-                if (i+3 <= input.Count-1)
+                if (i + 3 <= input.Count - 1)
                 {
                     if (input[i] + input[i + 1] + input[i + 2] < input[i + 1] + input[i + 2] + input[i + 3])
                     {
                         count++;
                     }
                 }
-                
             }
-
             Utilities.Instance.OutputAnswer(1, count.ToString());
         }
     }
