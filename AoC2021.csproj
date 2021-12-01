@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Days\Day10\" />
+    <Folder Include="Days\Day11\" />
+    <Folder Include="Days\Day12\" />
+    <Folder Include="Days\Day13\" />
+    <Folder Include="Days\Day14\" />
+    <Folder Include="Days\Day15\" />
+    <Folder Include="Days\Day16\" />
+    <Folder Include="Days\Day17\" />
+    <Folder Include="Days\Day18\" />
+    <Folder Include="Days\Day19\" />
+    <Folder Include="Days\Day20\" />
+    <Folder Include="Days\Day21\" />
+    <Folder Include="Days\Day22\" />
+    <Folder Include="Days\Day23\" />
+    <Folder Include="Days\Day24\" />
+    <Folder Include="Days\Day25\" />
+    <Folder Include="Days\Day2\" />
+    <Folder Include="Days\Day3\" />
+    <Folder Include="Days\Day4\" />
+    <Folder Include="Days\Day5\" />
+    <Folder Include="Days\Day6\" />
+    <Folder Include="Days\Day7\" />
+    <Folder Include="Days\Day8\" />
+    <Folder Include="Days\Day9\" />
+  </ItemGroup>
+
+</Project>
