@@ -8,7 +8,7 @@ namespace AoC2021
     {
         static void Main(string[] args)
         {
-            int dayToRun = 6;
+            int dayToRun = 7;
 
             switch (dayToRun)
             {
